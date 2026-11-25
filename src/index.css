@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --font-playfair: 'Playfair Display', serif;
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-cinzel: 'Cinzel', serif;
+  --font-cinzel-dec: 'Cinzel Decorative', serif;
+  --font-cormorant: 'Cormorant Garamond', serif;
+  --font-outfit: 'Montserrat', sans-serif;
+  --font-rozha: 'Rozha One', serif;
+
+  --color-royal-wine: #6e1f2f;
+  --color-royal-maroon: #58111A;
+  --color-royal-crimson: #7A1C28;
+  --color-royal-deepmaroon: #3D0B12;
+  --color-royal-gold: #C5A059;
+  --color-royal-goldlight: #E5C278;
+  --color-royal-golddark: #8C6D37;
+  --color-royal-ivory: #FAF6F0;
+  --color-royal-blush: #FDF8F5;
+  --color-royal-parchment: #F5EFEB;
+  --color-royal-charcoal: #2C2223;
+}
+
+/* Custom Royal Enhancements */
+.gold-text-gradient {
+  background: linear-gradient(135deg, #BF953F 0%, #FCF6BA 25%, #B38728 50%, #FBF5B7 75%, #AA771C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border-gradient {
+  border-image: linear-gradient(135deg, #C5A059, #F5EFEB, #C5A059) 1;
+}
+
+.gold-glow {
+  box-shadow: 0 0 25px rgba(197, 160, 89, 0.25);
+}
+
+.maroon-card {
+  background: linear-gradient(180deg, rgba(88, 17, 26, 0.95) 0%, rgba(61, 11, 18, 0.98) 100%);
+}
+
+.ivory-glass {
+  background: rgba(250, 246, 240, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Smooth custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF6F0;
+}
+::-webkit-scrollbar-thumb {
+  background: #C5A059;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7A1C28;
+}

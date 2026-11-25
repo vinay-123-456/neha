@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%" fill="none">
+  <!-- Outer Gold Ring with Beaded Dots -->
+  <circle cx="60" cy="60" r="56" stroke="#C5A059" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <circle cx="60" cy="60" r="52" stroke="#E5C278" stroke-width="1"/>
+  <circle cx="60" cy="60" r="48" fill="#58111A" stroke="#C5A059" stroke-width="1.2"/>
+  
+  <!-- Sacred Royal Ganesha Silhouette in Gold Foil -->
+  <g fill="#E5C278" stroke="#D4AF37" stroke-width="0.5">
+    <!-- Crown (Mukut) -->
+    <path d="M54 26 L60 16 L66 26 L63 32 L57 32 Z" fill="#F3E5AB" />
+    <circle cx="60" cy="14" r="2" fill="#E5C278"/>
+    
+    <!-- Ears -->
+    <path d="M54 32 C40 32 36 42 42 50 C46 54 50 52 52 48" stroke="#E5C278" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <path d="M66 32 C80 32 84 42 78 50 C74 54 70 52 68 48" stroke="#E5C278" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    
+    <!-- Forehead & Tilak -->
+    <path d="M56 32 C58 36 62 36 64 32" stroke="#E5C278" stroke-width="1.5" fill="none"/>
+    <line x1="60" y1="28" x2="60" y2="40" stroke="#DC2626" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="60" cy="42" r="1.5" fill="#DC2626"/>
+
+    <!-- Trunk (Sondh) gracefully curved to left holding Modak -->
+    <path d="M57 38 C57 55 45 62 48 72 C50 78 62 82 66 75 C68 70 65 65 60 62 C57 60 57 48 63 38" 
+          stroke="#E5C278" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    
+    <!-- Modak / Ladoo -->
+    <circle cx="46" cy="68" r="3" fill="#F59E0B" stroke="#E5C278" stroke-width="0.8"/>
+    
+    <!-- Tusks -->
+    <line x1="53" y1="48" x2="49" y2="52" stroke="#FAF6F0" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="67" y1="48" x2="69" y2="50" stroke="#FAF6F0" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+</svg>

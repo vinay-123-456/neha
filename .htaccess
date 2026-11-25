@@ -1,0 +1,13 @@
+DirectoryIndex dist/index.html index.php index.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Rewrite root to dist/index.html
+  RewriteRule ^$ dist/index.html [L]
+
+  # Rewrite assets, images, ornaments to dist/
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)$ dist/$1 [L]
+</IfModule>
